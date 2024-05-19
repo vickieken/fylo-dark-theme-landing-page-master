@@ -57,7 +57,7 @@ body.light {
 
     /* Accent */
     --Cyan-inside-call-to-action-gradient: hsl(219, 99%, 74%);
-    --Blue-inside-call-to-action-gradient: hsl(198, 42%, 22%);
+    --Blue-inside-call-to-action-gradient: hsl(199, 48%, 86%);
     --Light-Red-error: hsl(0, 100%, 63%);
 
     /* Neutral */
@@ -527,6 +527,11 @@ footer .comp-logo {
     padding-bottom: 50px;
 }
 
+#footer-section .fa {
+    color: var(--White);
+    font-size: var(--PARAGRAPH-SIZE);
+} 
+
 #footer-section .contacts .contact-details {
     display: flex;
     gap: 5px;
@@ -703,6 +708,22 @@ span.noChange {
         align-items: center;
         flex-flow: column nowrap;
         text-align: center;
+    }
+
+    #second-section .second-section-cont .second-section-box p {
+        color: var(--White);
+        font-size: var(--PARAGRAPH-SIZE);
+        line-height: 1.3;
+        filter: brightness(80%);
+        transition: all 1s ease-in-out;
+    }
+
+    #second-section .second-section-cont .second-section-box h4 {
+        color: var(--White);
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        transition: all 1s ease-in-out;
     }
 
     /* section three */
